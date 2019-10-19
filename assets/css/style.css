@@ -146,10 +146,13 @@ h2 {
   color: #FFFFFF;
 }
 
-.support--us {
+.support-Us {
   color: #0067FF;
+  margin-top:
 }
-
+#support1{
+  margin-top: 7px;
+}
 .support-us {
   position: absolute;
   margin-top: 285px;
