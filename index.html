@@ -9,7 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <!-- FAVICON LINKS -->
-
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <!--style.css-->
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
@@ -18,62 +20,62 @@
 </head>
 
 <body>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <!--LOGO-->
-  <a class="logo"><img src="assets/images/logo.png" height="42" alt="logo" /></a>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!--LOGO-->
+    <a class="logo"><img src="assets/images/logo.png" height="42" alt="logo" /></a>
 
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#errorss">HUMAN ERRORS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#solutions">SOLUTIONS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">CONTACT US</a>
-      </li>
-      <li class="nav-item">
-        <div class="nav-support">
-          <a class="nav-link" href="https://www.greenpeace.org.uk/challenges/plastic-pollution/"><span class="support">SUPPORT US</span></a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-<!--Banner video (used multiply video types to make sure
-      video will be supported by various browsers)-->
-<div class="video-wrapper">
-  <div class="text-block">
-    <p>
-      It is never to late to start caring for ocean
-    </p>
-    <video autoplay muted loop>
-      <source src="assets/video/banner-video.flv" type="video/flv" />
-      <source src="assets/video/banner-video.ogg" type="video/ogg" />
-      <source src="assets/video/banner-video.mp4" type="video/mp4" />
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#errorss">HUMAN ERRORS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#solutions">SOLUTIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <div class="nav-support">
+            <a class="nav-link" href="https://www.greenpeace.org.uk/challenges/plastic-pollution/"><span class="support">SUPPORT US</span></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Banner video (used multiply video types to make sure
+        video will be supported by various browsers)-->
+  <div class="video-wrapper">
+    <div class="text-block">
+      <p>
+        It is never to late to start caring for ocean
+      </p>
+      <video autoplay muted loop>
+        <source src="assets/video/banner-video.flv" type="video/flv" />
+        <source src="assets/video/banner-video.ogg" type="video/ogg" />
+        <source src="assets/video/banner-video.mp4" type="video/mp4" />
 
-    </video>
-  </div>
-</div>
-<!--What Plastic Ocean mission is-->
-
-<section class="container-fluid">
-  <div class="row-mission justify-content-center text-center">
-    <div class="col">
-      <h3>What is Plastic Ocean mission</h3>
-      <p1>
-        Our mission is to inform, inspire and incite on the issue of Environment Pollution. To lead political, cultural and social change for healthy seas and coasts that support abundant marine wildlife, sustainable livelihoods and enjoyment for
-        all.
-      </p1>
+      </video>
     </div>
   </div>
-</section>
-<!-- What pepople did to our oceans (human errors) -->
+  <!--What Plastic Ocean mission is-->
+
+  <section class="container-fluid">
+    <div class="row-mission justify-content-center text-center">
+      <div class="col">
+        <h3>What is Plastic Ocean mission</h3>
+        <p1>
+          Our mission is to inform, inspire and incite on the issue of Environment Pollution. To lead political, cultural and social change for healthy seas and coasts that support abundant marine wildlife, sustainable livelihoods and enjoyment for
+          all.
+        </p1>
+      </div>
+    </div>
+  </section>
+  <!-- What pepople did to our oceans (human errors) -->
 
   <div class="container">
     <div id="errorss"></div>
@@ -118,12 +120,13 @@
     </div>
   </div>
   <!-- This is a Map -->
-<div id="map"></div>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I&callback=initMap">
-</script>
-<!-- 4 Solutions -->
+  <div id="map"></div>
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I&callback=initMap">
+  </script>
+
+  <!-- 5 Solutions -->
   <section class="container-fluid">
     <div id="solutions"></div>
     <h3>This is what you can do to our oceans...</h3>
@@ -171,18 +174,19 @@
   </section>
   <!-- Support Us -->
 
-    <section>
-      <div class="container-fluid">
-        <div class="row justify-content-center text-center">
-          <img src="assets/images/background.png" alt="background-image" class="background-image">
-          <h2>Working together, we can change the current course and chart a sustainable future</h2>
-          <div class="support--us"></div>
-          <span class="support-us"><a href="https://www.greenpeace.org.uk/challenges/plastic-pollution/">SUPPORT US</a></span>
+  <section>
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <img src="assets/images/background.png" alt="background-image" class="background-image">
+        <h2>Working together, we can change the current course and chart a sustainable future</h2>
+        <div class="support--us"></div>
+        <span class="support-us"><a href="https://www.greenpeace.org.uk/challenges/plastic-pollution/">SUPPORT US</a></span>
 
-        </div>
       </div>
-    </section>
-    <!-- FOOTER -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer class="page-footer pt-4">
     <div id="contact"></div>
     <div class="container text-center text-md-left">
@@ -228,16 +232,15 @@
     </div>
     <!-- Copyright -->
 
-        <div class="copyright text-center ">© Plastic Ocean Charity 2019. Registered Charity No: 1114957. Private Company Limited by Guearantee No: 5750206</div>
+    <div class="copyright text-center ">© Plastic Ocean Charity 2019. Registered Charity No: 1114957. Private Company Limited by Guearantee No: 5750206</div>
 
 
-      </footer>
-      <!-- Scripts tags are at the end to improve loading time -->
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="assets/js/main.js"></script>
-
-
+  </footer>
+  <!-- Scripts tags are at the end to improve loading time -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
-</html
+
+</html>
