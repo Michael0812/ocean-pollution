@@ -4,3 +4,29 @@ body {
   height: 100%;
   background-color: #FFFFFF;
 }
+/* NavBar */
+.navbar {
+height: 100px;
+}
+
+.nav-link {
+color: #606060;
+font-size: 80%;
+}
+
+.nav-item {
+display: inline;
+padding-right: 70px;
+margin-right: -10px;
+}
+
+.support {
+color: #FFFFFF;
+}
+
+.nav-support {
+width: 100px;
+height: 37px;
+border-radius: 15px;
+background-image: linear-gradient(to right, #00FFFF, #0067FF);
+}
