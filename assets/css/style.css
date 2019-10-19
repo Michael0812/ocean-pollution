@@ -47,7 +47,7 @@ video {
   width: 100%;
 }
 
-p {
+#video-text{
   position: absolute;
   font-weight: 900;
   color: #FFFFFF;
@@ -58,7 +58,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  p {
+  #video-text{
     font-size: 35px;
     width: 400px;
   }
