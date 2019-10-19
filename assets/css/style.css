@@ -97,3 +97,14 @@ div#map {
   max-height: 100%;
   margin-bottom: 40px;
 }
+/* Solutions */
+h4 {
+color: #0067FF;
+padding-top: 30px;
+padding-bottom: 20px;
+margin-top: 30px;
+}
+.solutions-images {
+width: 100%;
+height: 400px;
+}
