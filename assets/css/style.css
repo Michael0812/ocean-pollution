@@ -76,3 +76,18 @@ padding-top: 30px;
     margin-right: 20%;
   }
 }
+
+                          /* HUMANS ERRORS */
+.error-image {
+  border-radius: 50%;
+  margin-top: 40px;
+  content: ""; // ::before and ::after both require content
+  background-color: #0067FF;
+  color: #0067FF;
+}
+
+figcaption {
+  color: #0067FF;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
