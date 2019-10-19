@@ -53,14 +53,14 @@ video {
   color: #FFFFFF;
   margin-left: 15%;
   margin-top: 16%;
-  font-size: 24px;
+  font-size: 25px;
   width: 300px;
 }
 
 @media only screen and (min-width: 768px) {
   #video-text{
-    font-size: 35px;
-    width: 400px;
+    font-size: 45px;
+    width: 550px;
   }
 }
 
@@ -84,6 +84,11 @@ p1, .text {
     margin-right: 20%;
   }
 }
+@media only screen and (min-width: 1450px) {
+  p1{
+    font-size: 21px;
+  }
+}
 
                           /* HUMANS ERRORS */
 .error-image {
@@ -93,18 +98,27 @@ p1, .text {
   background-color: #0067FF;
   color: #0067FF;
 }
-
+@media only screen and (min-width: 1450px) {
+  .text{
+    font-size: 21px;
+  }
+}
 figcaption {
   color: #0067FF;
   margin-top: 20px;
   padding-bottom: 40px;
 }
 
-/* GOOGLE MAP */
+                    /* GOOGLE MAP */
 div#map {
   min-height: 360px;
-  height: 100vh;
+  height: 60vh;
   margin-bottom: 40px;
+}
+@media only screen and (min-width: 1024px) {
+  div#map{
+    height: 100vh;
+  }
 }
                             /* Solutions */
 h4 {
