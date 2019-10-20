@@ -12,11 +12,24 @@ body {
   top: 0;
   z-index: 1;
   scroll-behavior: smooth;
+
+
 }
 
 .nav-link {
   color: #606060;
   font-size: 80%;
+}
+@media only screen and (max-width: 1023px) {
+  .nav-link{
+    background-color: #FFFFFF;
+    border: 1px solid #606060;
+    text-align: center;
+    width: 150px;
+    float: right;
+    margin-right: -70px;
+
+  }
 }
 
 .nav-item {
@@ -35,7 +48,11 @@ body {
   border-radius: 15px;
   background-image: linear-gradient(to right, #00FFFF, #0067FF);
 }
-
+@media only screen and (max-width:1023px) {
+  .nav-support{
+    display: none;
+  }
+}
                                     /* LOGO */
 .logo {
   margin-top: 10px;
