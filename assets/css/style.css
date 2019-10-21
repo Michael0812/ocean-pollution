@@ -5,29 +5,18 @@ body {
   background-color: #FFFFFF;
 }
 
-                                    /* NavBar */
+/* NavBar */
 .navbar {
   height: 80px;
   position: sticky;
   top: 0;
   z-index: 1;
   scroll-behavior: smooth;
-
-
 }
 
 .nav-link {
   color: #606060;
   font-size: 80%;
-}
-@media only screen and (max-width: 1023px) {
-  .nav-link{
-    background-color: #FFFFFF;
-    border: 1px solid #606060;
-    text-align: center;
-    width: 100%;
-    margin-left: 30px;
-  }
 }
 
 .nav-item {
@@ -46,23 +35,19 @@ body {
   border-radius: 15px;
   background-image: linear-gradient(to right, #00FFFF, #0067FF);
 }
-@media only screen and (max-width:1023px) {
-  .nav-support{
-    display: none;
-  }
-}
-                                    /* LOGO */
+
+/* LOGO */
 .logo {
   margin-top: 10px;
   margin-left: 10%;
 }
 
-                                  /* VIDEO */
+/* VIDEO */
 video {
   width: 100%;
 }
 
-#video-text{
+#video-text {
   position: absolute;
   font-weight: 900;
   color: #FFFFFF;
@@ -72,14 +57,7 @@ video {
   width: 300px;
 }
 
-@media only screen and (min-width: 768px) {
-  #video-text{
-    font-size: 45px;
-    width: 550px;
-  }
-}
-
-                        /* OUR MISSION */
+/* OUR MISSION */
 h3 {
   color: #0067FF;
   text-align: center;
@@ -93,19 +71,7 @@ h3 {
   padding-top: 30px;
 }
 
-@media only screen and (min-width: 768px) {
-  .row-mission {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
-@media only screen and (min-width: 1450px) {
-  .text-solutions{
-    font-size: 21px;
-  }
-}
-
-                          /* HUMANS ERRORS */
+/* HUMANS ERRORS */
 .error-image {
   border-radius: 50%;
   margin-top: 40px;
@@ -113,34 +79,27 @@ h3 {
   background-color: #0067FF;
   color: #0067FF;
 }
-@media only screen and (min-width: 1450px) {
-  .text{
-    font-size: 21px;
-  }
-}
+
 figcaption {
   color: #0067FF;
   margin-top: 20px;
   padding-bottom: 40px;
 }
 
-                    /* GOOGLE MAP */
+/* GOOGLE MAP */
 div#map {
   min-height: 360px;
   height: 60vh;
   margin-bottom: 40px;
 }
-@media only screen and (min-width: 1024px) {
-  div#map{
-    height: 100vh;
-  }
-}
+
 h4 {
   color: #0067FF;
   padding-bottom: 20px;
   margin-top: 10px;
 }
-                            /* Solutions */
+
+/* Solutions */
 h1 {
   color: #0067FF;
   padding-top: 30px;
@@ -150,7 +109,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-                            /* Support */
+/* Support */
 .background-image {
   height: 700px;
   width: 100%;
@@ -167,11 +126,12 @@ h2 {
 
 .support-Us {
   color: #0067FF;
-
 }
-#test{
+
+#test {
   margin-top: 7px;
 }
+
 .support-us {
   position: absolute;
   margin-top: 255px;
@@ -181,11 +141,6 @@ h2 {
   border-radius: 26px;
   background-color: #FFFFFF;
   font-weight: 900;
-}
-@media only screen and (max-width: 375px) {
-  .support-us{
-    margin-top: 330px;
-  }
 }
 
 /* Footer */
@@ -199,4 +154,59 @@ h2 {
 
 .copyright {
   margin-top: 40px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1023px) {
+  .nav-link {
+    background-color: #FFFFFF;
+    border: 1px solid #606060;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width:1023px) {
+  .nav-support {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #video-text {
+    font-size: 45px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .row-mission {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .text-solutions {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .text {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  div#map {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .support-us {
+    margin-top: 330px;
+  }
 }
