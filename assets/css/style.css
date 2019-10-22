@@ -7,7 +7,7 @@ body {
 
 /* NavBar */
 .navbar {
-  height: 80px;
+  height: 100px;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -51,7 +51,7 @@ video {
   position: absolute;
   font-weight: 900;
   color: #FFFFFF;
-  margin-left: 15%;
+  margin-left: 23%;
   margin-top: 16%;
   font-size: 25px;
   width: 300px;
@@ -66,14 +66,17 @@ h3 {
   margin-top: 30px;
 }
 
-.text-solutions, .text {
+.text {
   color: #606060;
   padding-top: 30px;
+}
+.text-solutions {
+  color: #606060;
 }
 
 /* HUMANS ERRORS */
 .error-image {
-  border-radius: 100%;
+  border-radius: 50%;
   margin-top: 40px;
   content: ""; // ::before and ::after both require content
   background-color: #0067FF;
@@ -102,9 +105,9 @@ h4 {
 /* Solutions */
 h1 {
   color: #0067FF;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 23px;
   margin-bottom: 10px;
 }
@@ -151,7 +154,9 @@ h2 {
 .list-unstyled, .copyright, h5 {
   color: #FFFFFF;
 }
-
+.address{
+  margin-right: 15px;
+}
 .copyright {
   margin-top: 40px;
 }
@@ -186,19 +191,17 @@ h2 {
     margin-right: 20%;
   }
 }
-
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 1550px) {
   .text-solutions {
-    font-size: 21px;
+    font-size: 18px;
+    margin-left: 30px;
   }
 }
-
 @media only screen and (min-width: 1450px) {
   .text {
     font-size: 21px;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   div#map {
     height: 100vh;
@@ -208,5 +211,12 @@ h2 {
 @media only screen and (max-width: 375px) {
   .support-us {
     margin-top: 330px;
+  }
+}
+@media only screen and (min-width:1550px) {
+  h1{
+    font-size: 27px;
+    margin-top: 100px;
+
   }
 }
