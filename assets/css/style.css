@@ -73,7 +73,7 @@ h3 {
 
 /* HUMANS ERRORS */
 .error-image {
-  border-radius: 50%;
+  border-radius: 100%;
   margin-top: 40px;
   content: ""; // ::before and ::after both require content
   background-color: #0067FF;
