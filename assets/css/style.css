@@ -6,6 +6,7 @@ body {
 }
 
 /* NavBar */
+
 .navbar {
   height: 100px;
   position: sticky;
@@ -154,6 +155,9 @@ h2 {
 .list-unstyled, .copyright, h5 {
   color: #FFFFFF;
 }
+.social{
+  word-spacing: 5px;
+}
 .address{
   margin-right: 15px;
 }
@@ -162,6 +166,23 @@ h2 {
 }
 
 /* Media queries */
+@media only screen and (max-width: 768px) {
+  video{
+    display: none;
+  }
+}
+.img-fluid{
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+.hero-image{
+  height: auto;
+  display: none;
+  width: vh;
+  margin: 0;
+  top: 0;
+}
+}
 @media only screen and (max-width: 1023px) {
   .nav-link {
     background-color: #FFFFFF;
@@ -219,4 +240,17 @@ h2 {
     margin-top: 100px;
 
   }
+}
+@media only screen and (max-width: 768px) {
+  .video-wrapper{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px){
+
+
+.special-hero-image{
+  background-image: url(https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?cs=srgb&dl=animal-aquatic-marine-life-1618606.jpg&fm=jpg) !important;
+  background-repeat: no-repeat;
+}
 }
