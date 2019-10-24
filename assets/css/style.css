@@ -92,8 +92,6 @@ h3 {
 .error-image {
   border-radius: 50%;
   margin-top: 40px;
-  content: ""; // ::before and ::after both require content
-  background-color: #0067FF;
   color: #0067FF;
 }
 
