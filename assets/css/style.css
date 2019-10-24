@@ -261,5 +261,6 @@ h2 {
 @media only screen and (max-width: 768px) {
   .video-wrapper{
     display: none;
+    visibility: hidden;
   }
 }
