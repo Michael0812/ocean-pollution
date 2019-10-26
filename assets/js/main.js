@@ -11,7 +11,7 @@ function initMap() {
   };
 
   const map = new google.maps.Map(document.getElementById("map"), options);
-
+//locations
   var markers = [
     { coords: {
         lat: -12.72458381,
@@ -31,7 +31,7 @@ function initMap() {
       lng: 50.20258346},
       content: "<h4>Arctic Ocean</h4><p1>Scientists have found an unprecedented number of microplastics frozen in Arctic sea ice, demonstrating the alarming extent to which they are pervading marine environments. Each litre of sea ice contained around 12,000 particles of plastic, which scientists are now concerned are being ingested by native animals.</p1>"},
   ];
-
+// Markers
     for (var i = 0; i < markers.length; i++) {
 
       addMarker(markers[i]);
@@ -47,10 +47,11 @@ function initMap() {
         var infoWindow = new google.maps.InfoWindow({
           content: props.content
         });
-
+// info Window open function
         marker.addListener("click", function() {
           infoWindow.open(map, marker);
         });
+//info Window close function
           google.maps.event.addListener(map, "click", function() {
             infoWindow.close();
           });
