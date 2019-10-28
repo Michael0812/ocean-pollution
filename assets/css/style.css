@@ -181,20 +181,13 @@ h2 {
     display: none;
   }
 }
+
 @media only screen and (max-width: 768px) {
 .img-fluid{
   width: 100%;
   padding-top: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-.hero-image{
-  height: auto;
-  display: none;
-  margin: auto;
-  top: 0;
-}
-}
 @media only screen and (max-width: 1023px) {
   .nav-link {
     background-color: #FFFFFF;
@@ -211,12 +204,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  #video-text {
-    font-size: 45px;
-    width: 550px;
-  }
-}
+
 
 @media only screen and (min-width: 768px) {
   .row-mission {
