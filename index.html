@@ -3,7 +3,6 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,7 +71,7 @@
 <!-- image -->
 
 
-    <div class="container-fluid d-lg-none d-md-none text-white ">
+    <div class="container-fluid justify-content-center text-center d-lg-none d-md-none text-white ">
        <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=hero-image class="img-fluid hero-image">
       <div class="centered d-lg-none d-md-none">
          It is never to late to start caring for ocean
@@ -81,10 +80,10 @@
   <!--What Plastic Ocean mission is-->
 
   <section class="container-fluid">
-    <div class="row-mission justify-content-center text-center">
-      <div class="col">
+    <div class="row-mission">
+      <div class="col-12">
         <h3>What is Plastic Ocean mission</h3>
-        <p>
+        <p class="mission col pl-5 pr-5 justify-content-center text-center">
           Our mission is to inform, inspire and incite on the issue of Environment Pollution. To lead political, cultural and social change for healthy seas and coasts that support abundant marine wildlife, sustainable livelihoods and enjoyment for
           all.
         </p>
@@ -137,10 +136,7 @@
   </div>
   <!-- This is a Map -->
   <div id="map"></div>
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-  </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I&callback=initMap">
-  </script>
+
 
   <!-- 5 Solutions -->
   <section class="container-fluid">
@@ -151,14 +147,14 @@
         <img src="https://cdn.shopify.com/s/files/1/0851/4276/files/s_well-bottles-beach.jpg?v=1492599119" alt="reusable bootle" class="img-fluid">
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-2">
-        <h1 class="col-xl-10 pt-5">1. Use a reusable bootle</h1>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">1. Use a reusable bootle</h1>
         <p class="text-solutions col-xl-10">Plastic bottles are present in very large quantities in our oceans, they are ingested by marine mammals or accumulate in nature and on our beaches. Different kinds of plastic can degrade at different times, but the average time for
           a plastic bottle to completely degrade is at least 450 years.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 order-4 order-md-4 order-lg-3">
-        <h1 class="col-xl-10 pt-5">2. Refuse disposable utensils :  Straws, cutlery, tumblers and plastic bags…</h1>
+        <h1 class="kurwa col-xl-10 pt-5 mt-auto mt-lg-5">2. Refuse disposable utensils :  Straws, cutlery, tumblers and plastic bags…</h1>
         <p class="text-solutions col-xl-10">Plastic forks, knives and spoons may be convenient, but they’re wreaking havoc on our oceans. In fact, six million tons of non-durable plastics are discarded every year.<br><br> “Non-durable” means that the plastic has a useful life of less than
           three years. Other examples of non-durable plastics include plastic packaging, trash bags, cups, and more.</p>
       </div>
@@ -167,18 +163,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6 pt-5 order-5">
+      <div class="col-sm-12 col-md-12 col-lg-6 pt-1 order-5">
         <img src="https://museumoflitter.typepad.com/.a/6a0115701c50aa970b011571213697970b-pi" alt="recycling" class="img-fluid">
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-6">
-        <h1 class="col-xl-10 pt-5">3. Recycle properly</h1>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">3. Recycle properly</h1>
         <p class="text-solutions col-xl-10">Recycling is the process of converting waste materials into new materials and objects. It is an alternative to "conventional" waste disposal that can save material and help lower greenhouse gas emissions.<br><br> Recycling can prevent the waste
           of potentially useful materials and reduce the consumption of fresh raw materials, thereby reducing: energy usage, air pollution, and water pollution.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 order-8 order-md-8 order-lg-7 ">
-        <h1 class="col-xl-10 pt-5">4. Picking up trash on the beach</h1>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">4. Picking up trash on the beach</h1>
         <p class="text-solutions mb-sm-4 col-xl-10">Naturally, we feel a little protective of our beaches. We’re shocked to see that some people don’t care as much about our beaches as we do. <br><br>When we spot trash and debris littering our beloved beaches, it’s upsetting—not only because it
           damages the beauty of the beach, but also because it hurts the fragile ecosystems that call the beach home. </p>
       </div>
@@ -253,6 +249,10 @@
 
   </footer>
   <!-- Scripts tags are at the end to improve loading time -->
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I&callback=initMap">
+  </script>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

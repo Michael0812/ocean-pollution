@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
   font-family: 'Muli', sans-serif;
   width: 100%;
@@ -117,9 +119,7 @@ h4 {
 /* Solutions */
 h1 {
   color: #0067FF;
-  padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 20px;
   font-size: 23px;
   margin-bottom: 10px;
 }
@@ -234,12 +234,7 @@ h2 {
     margin-top: 330px;
   }
 }
-@media only screen and (min-width:1550px) {
-  h1{
-    font-size: 27px;
-    margin-top: 100px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   h2{
     margin-top: 60px;
@@ -249,4 +244,9 @@ h2 {
   .video-wrapper{
     display: none !important;
   }
+}
+@media only screen and (min-width: 1024px) {
+.mission{
+  font-size: 40px;
+}
 }
