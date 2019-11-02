@@ -94,4 +94,20 @@ To deploy this page to GitHub Pages from its Github repository, the following st
 7. Click on the **Settings** button.
 8. On this subpage, in section **GitHub Pages** change the Source from **None** to **Master Branch**.
 9. The website will refresh autmaticlly.
-10. In section "**Github Pages** is ready link waiting.
+10. In section **Github Pages** is ready link waiting.
+
+### How to run this project locally
+
+1. Follow this link to the [GitHub respository](https://github.com/Michael0812/ocean-pollution)
+2. Under the repository name, click **Clone or download**.
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. Open your terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type **git clone**, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press **Enter**. Your local clone will be created.
+
+
+Please, follow this [link](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) if you need any further information.
