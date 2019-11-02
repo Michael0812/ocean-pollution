@@ -137,3 +137,9 @@ Please, follow this [link](https://help.github.com/en/github/creating-cloning-an
 - [w3schools](https://www.w3schools.com)
 - [Google developers](https://developers.google.com/)
 - [awwwards](https://www.awwwards.com)
+
+### The content of this Website is for educational purposes only.
+
+ - I would like to thank my girlfriend immensely who was supporting and helping me for all my journey with this project.
+ - Massive thanks to my mentor [Simen Daehlin - Eventyret_mentor]("https://www.github.com/Eventyret"), he gave me so many very useful tips and advices, and who was always open, helpful and kind me.
+ - Also, I would like to thank students from Code Institute that were helping on Slack with every issue I had, they were        always trying to give me the best tips and help me sort things out.
