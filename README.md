@@ -61,7 +61,22 @@ Links located in navbar are connect with section on the website:
 #### [Google Font](https://fonts.google.com)
 - This project uses Google Font to style the website font.
 
-#### [Google Map API](https://developers.google.com/maps/documentation/javascript/tutorial)
+#### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
 - This project used Google Map to show up map on the website.
 
+### How to get an API key
+Follow these steps to get an API key:
+   1. Go to the [Google Cloud Platform Console.](https://console.cloud.google.com/google/maps-apis/)
+   2. Create or select a project.
+   3. Click **Continue** to enable the API and any related services.
+   4. On the **Credentials** page, get an **API key** (and set the API key restrictions). Note: If you have an existing         unrestricted API key, or a key with browser restrictions, you may use that key.
+   5. To prevent quota theft and secure your API key, see [Using API Keys.](https://cloud.google.com/docs/authentication/api-keys)
+   6. Copy the entire code of this tutorial from this page, to your text editor.
+   7. Replace the value of the key parameter in the URL with your own API key (that's the API key that you've just obtained).
+      ```
+         <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+         </script>
+         ```
+Please, follow this [link](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) if you need any further information.
 
