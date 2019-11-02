@@ -23,3 +23,10 @@ Keeping all of these in mind, I am still aware that many people have a little or
 Bearing all of this in mind I thought us, young people still have the time to make huge change, therefore I wanted to inform and educate people about what is currently happening to our oceans (there is not enough in media).
 
 I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support ….. by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
+
+## Wireframes
+ Wireframes were created in Adobe XD
+ 
+- [Mobile, Tablet & Desktop](https://xd.adobe.com/view/e6e325e8-2fad-4ca9-6a47-fd590a592bf0-90d2/?fbclid=IwAR1oKee_rgC9baO4TVcwad_RHA-1aE4-o65CgjkSpcfOmOwYVCVi2G06ZQk&hints=off)
+
+
