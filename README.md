@@ -117,12 +117,13 @@ Please, follow this [link](https://help.github.com/en/github/creating-cloning-an
 
  - Logo was made by [Lidia Kabala](https://www.linkedin.com/in/lidia-kabala-3b2036137/)
  
- - It was made by Tom Fisk and copy from [pexels](https://www.pexels.com/video/turtle-underwater-1456996/)
+ - Video was made by Tom Fisk and copy from [pexels](https://www.pexels.com/video/turtle-underwater-1456996/)
+ 
  
 #### Human error section
- 1. Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill)
+ - Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill)
  
-    Images - was copierd and shared from the [businessinsider](https://www.businessinsider.com/exxon-valdez-spill-other-disasters-contaminated-ocean-2019-3?r=US&IR=T)
+ - Images - was copierd and shared from the [businessinsider](https://www.businessinsider.com/exxon-valdez-spill-other-disasters-contaminated-ocean-2019-3?r=US&IR=T)
     
     
 #### Solutions 
