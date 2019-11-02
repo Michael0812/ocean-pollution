@@ -111,3 +111,28 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 
 Please, follow this [link](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) if you need any further information.
+
+## Credits
+
+
+ - Logo was made by [Lidia Kabala](https://www.linkedin.com/in/lidia-kabala-3b2036137/)
+ 
+ - It was made by Tom Fisk and copy from [pexels](https://www.pexels.com/video/turtle-underwater-1456996/)
+ 
+#### Human error section
+ 1. Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill)
+ 
+    Images - was copierd and shared from the [businessinsider](https://www.businessinsider.com/exxon-valdez-spill-other-disasters-contaminated-ocean-2019-3?r=US&IR=T)
+    
+    
+#### Solutions 
+
+ - On that section text that I was working with was from the website [Passport Ocean](https://passportocean.com/2018/10/14/ocean-pollution-solutions/). I finded there a many important and intresting information about ocean pollution.
+
+ - Images that I was used on this website was from a few different websites like [Museum of litter](https://museumoflitter.typepad.com/.a/6a0115701c50aa970b011571213697970b-pi) and [cdn shopify](https://cdn.shopify.com/s/files/1/0024/8787/7745/products/sustainable-tomorrow-cutlery-deep-green-bamboo-set-straw-7134899634289_2000x.jpg?v=1565037443)
+
+##### Also, I was working with different websites that gave me some helps, advices and ideas for this project:
+- [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn)
+- [w3schools](https://www.w3schools.com)
+- [Google developers](https://developers.google.com/)
+- [awwwards](https://www.awwwards.com)
