@@ -46,3 +46,22 @@ Links located in navbar are connect with section on the website:
 - Contact Us - goes to the to footer to show contact details
 - Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
 
+
+## Technologies Used
+
+#### HTML, CSS, JavaScript
+- All those languages was used to create this website.
+
+#### [jQuery](https://jquery.com/)
+- This project uses jQueary to reference Javascript.
+
+#### [Bootstrap](https://getbootstrap.com/)
+- This project uses Bootstrap to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+
+#### [Google Font](https://fonts.google.com)
+- This project uses Google Font to style the website font.
+
+#### [Google Map API](https://developers.google.com/maps/documentation/javascript/tutorial)
+- This project used Google Map to show up map on the website.
+
+
