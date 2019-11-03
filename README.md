@@ -32,12 +32,12 @@ I really wanted the website to have modern cool design, with short and punchy me
 ## Existing featurers
 
 ### Logo
-Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text ```Ocean Polution```. It was created so that it would be associated with water/ocean as much as possible.
+Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text **Ocean Polution**. It was created so that it would be associated with water/ocean as much as possible.
 
 On this website logo is located in navbar on the left side and also on the bottom of website in footer section. It is vissible on every divices. Also, logo is conected with link that goes to [Plastic Ocean](https://plasticoceans.org/) website where a many inspire were taken for this project.
 
 ### Navbar
-It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar. Makes it easier for the user to navigate.
+It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigatoin
 
 Links located in navbar are connect with section on the website:
 - Home - goes to to the home page of the website (refresh or send to the top of the website)
@@ -45,6 +45,9 @@ Links located in navbar are connect with section on the website:
 - Solutions - goes to the solutions section
 - Contact Us - goes to the to footer to show contact details
 - Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
+
+### Human Errors
+Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
 
 
 ## Technologies Used
