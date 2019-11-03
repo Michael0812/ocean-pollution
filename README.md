@@ -49,6 +49,9 @@ Links located in navbar are connect with section on the website:
 ### Human Errors
 Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
 
+### Google Map
+In this section I wanted to show users how google map works. First of all, the user can find on the map the locations of 4 oceans and refer to the description contained in them.
+
 
 ## Technologies Used
 
