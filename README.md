@@ -31,12 +31,12 @@ I really wanted the website to have modern cool design, with short and punchy me
 
 ## Existing featurers
 
-### Logo
+#### Logo
 Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text **Ocean Polution**. It was created so that it would be associated with water/ocean as much as possible.
 
 On this website logo is located in navbar on the left side and also on the bottom of website in footer section. It is vissible on every divices. Also, logo is conected with link that goes to [Plastic Ocean](https://plasticoceans.org/) website where a many inspire were taken for this project.
 
-### Navbar
+#### Navbar
 It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigatoin
 
 Links located in navbar are connect with section on the website:
@@ -46,23 +46,28 @@ Links located in navbar are connect with section on the website:
 - Contact Us - goes to the to footer to show contact details
 - Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
 
-### Human Errors
+#### Human Errors
 Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
 
-### Google Map
+#### Google Map
 In this section I wanted to show users how google map works. First of all, the user can find on the map the locations of 4 oceans and refer to the description contained in them.
 
-### Solutions
+#### Solutions
 In this section the user can find several solutions on how to save our planet. This is not just about oceans, but about every sphere of our lives. Each of us should change a few habits in our life and start to take care of the place in which we lives, if not for us we have to do this for our children and future generations.
 
-### Support
+#### Support
 This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet
 
 **Working together, we can change the current course and chart a sustainable future**
   Users should feel that they are not alone and each of us adding a small brick can save the earth
 
-### Footer
-Footer contains Logo
+#### Footer
+Logo inside the footer is connected to [Plastic Ocean](https://plasticoceans.org) website. 
+the user can easily find the address for **Plastic ocean organization**. Also, users can connect to social media:
+- [Facebook](https://www.facebook.com/PlasticOceans)
+- [Twitter](https://twitter.com/plasticoceans)
+- [Instagram](https://www.instagram.com/plasticoceans)
+- [Youtube](https://www.youtube.com/plastic-oceans-international)
   
 ## Technologies Used
 
