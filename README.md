@@ -55,6 +55,9 @@ Links located in navbar are connect with section on the website:
 #### [jQuery](https://jquery.com/)
 - This project uses jQueary to reference Javascript.
 
+#### [Popper.js](https://popper.js.org/)
+- This project uses popper.js library.
+
 #### [Bootstrap](https://getbootstrap.com/)
 - This project uses Bootstrap to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
