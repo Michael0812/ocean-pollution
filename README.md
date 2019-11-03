@@ -52,7 +52,18 @@ Idea to create **human errors** section was to show user how human decission aff
 ### Google Map
 In this section I wanted to show users how google map works. First of all, the user can find on the map the locations of 4 oceans and refer to the description contained in them.
 
+### Solutions
+In this section the user can find several solutions on how to save our planet. This is not just about oceans, but about every sphere of our lives. Each of us should change a few habits in our life and start to take care of the place in which we lives, if not for us we have to do this for our children and future generations.
 
+### Support
+This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet
+
+**Working together, we can change the current course and chart a sustainable future**
+  Users should feel that they are not alone and each of us adding a small brick can save the earth
+
+### Footer
+Footer contains Logo
+  
 ## Technologies Used
 
 #### HTML, CSS, JavaScript
