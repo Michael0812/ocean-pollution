@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Muli', sans-serif;
   width: 100%;
@@ -27,7 +32,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  scroll-behavior: smooth;
 }
 
 .nav-link {
@@ -187,11 +191,10 @@ h2 {
   width: 100%;
   padding-top: 10px;
 }
-
+}
 @media only screen and (max-width: 1023px) {
   .nav-link {
     background-color: #FFFFFF;
-    border: 1px solid #606060;
     text-align: center;
     width: 100%;
     margin-left: 30px;
@@ -203,8 +206,6 @@ h2 {
     display: none;
   }
 }
-
-
 
 @media only screen and (min-width: 768px) {
   .row-mission {
@@ -245,7 +246,7 @@ h2 {
     display: none !important;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1450px) {
 .mission{
   font-size: 40px;
 }
