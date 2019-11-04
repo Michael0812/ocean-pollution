@@ -15,7 +15,7 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 
 ## Navigation
 
- - <a href="#What">What</a>
+ - <a href="#about">What this is website for</a>
  - <a href="#Wireframes">Wireframes</a>
  - <a href="#Existing">Existing featurers</a>
  - <a href="#Technologies">Technologies Used</a>
@@ -23,7 +23,7 @@ However, the largest amount of pollution goes to waters through rivers, winds an
  - <a href="#Deployment">Deployment</a>
  - <a href="#locally">How to run this project locally</a>
  - <a href="#Credits">Credits</a>
- 
+ <!--about -->
 ## What this is website for
 This website is for everyone, however I was mainly aiming at young people who show interest, and would like to learn a bit more about ocean pollution and what to do to help with this issue.
 
