@@ -1,4 +1,4 @@
- <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+<img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
 
 <h1 align="center">
   Ocean Pollution
@@ -13,7 +13,6 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 
 70 percent of the Earth's surface is covered by seas and oceans. Every year, over 10 million tons of plastic and other plastic waste goes there. These pollutants threaten not only the flora and fauna of the sea, but also the health of people living inland
 
-
 ## What this is website for
 This website is for everyone, however I was mainly aiming at young people who show interest, and would like to learn a bit more about ocean pollution and what to do to help with this issue.
 
@@ -25,29 +24,20 @@ Bearing all of this in mind I thought us, young people still have the time to ma
 
 I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support ….. by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
 
-
-
-
-## What does it do
-
-## User experience:
-....
-
 ## Wireframes
  Wireframes were created in Adobe XD
  
 - [Mobile, Tablet & Desktop](https://xd.adobe.com/view/e6e325e8-2fad-4ca9-6a47-fd590a592bf0-90d2/?fbclid=IwAR1oKee_rgC9baO4TVcwad_RHA-1aE4-o65CgjkSpcfOmOwYVCVi2G06ZQk&hints=off)
 
+## Existing featurers
 
-## Existing featurer
-
-### Logo
-Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text ```Ocean Polution```. It was created so that it would be associated with water/ocean as much as possible.
+#### Logo
+Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text **Ocean Polution**. It was created so that it would be associated with water/ocean as much as possible.
 
 On this website logo is located in navbar on the left side and also on the bottom of website in footer section. It is vissible on every divices. Also, logo is conected with link that goes to [Plastic Ocean](https://plasticoceans.org/) website where a many inspire were taken for this project.
 
-### Navbar
-It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar. Makes it easier for the user to navigate.
+#### Navbar
+It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigatoin
 
 Links located in navbar are connect with section on the website:
 - Home - goes to to the home page of the website (refresh or send to the top of the website)
@@ -56,26 +46,39 @@ Links located in navbar are connect with section on the website:
 - Contact Us - goes to the to footer to show contact details
 - Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
 
-###
+#### Human Errors
+Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
 
+#### Google Map
+In this section I wanted to show users how google map works. First of all, the user can find on the map the locations of 4 oceans and refer to the description contained in them.
 
+#### Solutions
+In this section the user can find several solutions on how to save our planet. This is not just about oceans, but about every sphere of our lives. Each of us should change a few habits in our life and start to take care of the place in which we lives, if not for us we have to do this for our children and future generations.
 
+#### Support
+This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet
+
+**Working together, we can change the current course and chart a sustainable future**
+  Users should feel that they are not alone and each of us adding a small brick can save the earth
+
+#### Footer
+Logo inside the footer is connected to [Plastic Ocean](https://plasticoceans.org) website. 
+the user can easily find the address for **Plastic ocean organization**. Also, users can connect to social media:
+- [Facebook](https://www.facebook.com/PlasticOceans)
+- [Twitter](https://twitter.com/plasticoceans)
+- [Instagram](https://www.instagram.com/plasticoceans)
+- [Youtube](https://www.youtube.com/plastic-oceans-international)
+  
 ## Technologies Used
 
-#### [ATOM](https://atom.io/)
-- The project was made in an ATOM editor text.
-
-#### HTML
-- The project uses HTML to  markup language for documents designed to be displayed in a web browser.
-
-#### CSS
-- This project uses CSS for describing the presentation of a document written in a markup-language like HTML. 
-
-#### JavaScript
-- This project uses JavaScript to create Google Map API
+#### HTML, CSS, JavaScript
+- All those languages was used to create this website.
 
 #### [jQuery](https://jquery.com/)
 - This project uses jQueary to reference Javascript.
+
+#### [Popper.js](https://popper.js.org/)
+- This project uses popper.js library.
 
 #### [Bootstrap](https://getbootstrap.com/)
 - This project uses Bootstrap to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
@@ -83,15 +86,15 @@ Links located in navbar are connect with section on the website:
 #### [Google Font](https://fonts.google.com)
 - This project uses Google Font to style the website font.
 
-#### [Google Map API](https://developers.google.com/maps/documentation/javascript/tutorial)
-- This project used Google Map API to show up map on the website.
+#### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
+- This project used Google Map to show up map on the website.
 
 ### How to get an API key
 Follow these steps to get an API key:
    1. Go to the [Google Cloud Platform Console.](https://console.cloud.google.com/google/maps-apis/)
    2. Create or select a project.
-   3. Click ```Continue``` to enable the API and any related services.
-   4. On the ```Credentials``` page, get an ```API key``` (and set the API key restrictions). Note: If you have an existing         unrestricted API key, or a key with browser restrictions, you may use that key.
+   3. Click **Continue** to enable the API and any related services.
+   4. On the **Credentials** page, get an **API key** (and set the API key restrictions). Note: If you have an existing         unrestricted API key, or a key with browser restrictions, you may use that key.
    5. To prevent quota theft and secure your API key, see [Using API Keys.](https://cloud.google.com/docs/authentication/api-keys)
    6. Copy the entire code of this tutorial from this page, to your text editor.
    7. Replace the value of the key parameter in the URL with your own API key (that's the API key that you've just obtained).
@@ -104,64 +107,50 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 
 
 ## Deployment
-### This project was made in an ATOM Text Editor.
-To deploy this page to GitHub Pages from its Github repository, the following steps were taken:</br>
+
+To deploy this page to GitHub Pages from its Github repository, the following steps were taken:
 
 1. Create an account in GitHub.
 2. Sign in to the account.
-3. On the home page choose "Start a project".
-4. Then, create a name for the project (MilestoneProject-1).
+3. On the home page choose **Start a project**.
+4. Then, create a name for the project [ocean-polution](https://github.com/Michael0812/ocean-pollution).
 5. Create a respository.
 6. Upload the folder to the respository.
-7. Click on the "Settings" button.
-8. On this subpage, in section "GitHub Pages" change the Source from "None" to "Master Branch".
+7. Click on the **Settings** button.
+8. On this subpage, in section **GitHub Pages** change the Source from **None** to **Master Branch**.
 9. The website will refresh autmaticlly.
-10. In section "Github Pages" is ready link waiting.
+10. In section **Github Pages** is ready link waiting.
 
 ### How to run this project locally
 
 1. Follow this link to the [GitHub respository](https://github.com/Michael0812/ocean-pollution)
-2. Under the repository name, click "Clone or download".
+2. Under the repository name, click **Clone or download**.
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open Git Bash.
+4. Open your terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type ```git clone```, and then paste the URL you copied in Step 3.
+6. Type **git clone**, and then paste the URL you copied in Step 3.
 ```console
 git clone https://github.com/USERNAME/REPOSITORY
 ```
-7. Press Enter. Your local clone will be created.
+7. Press **Enter**. Your local clone will be created.
 
 
 Please, follow this [link](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) if you need any further information.
 
-<h2>Testing</h2>
-....
-
 ## Credits
 
-#### Navbar
- - It was copied from [getbootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and changes were made for the purposes of the project
-#### Logo
+
  - Logo was made by [Lidia Kabala](https://www.linkedin.com/in/lidia-kabala-3b2036137/)
  
-#### Video banner
- - It was made by Tom Fisk and copy from [pexels](https://www.pexels.com/video/turtle-underwater-1456996/)
+ - Video was made by Tom Fisk and copy from [pexels](https://www.pexels.com/video/turtle-underwater-1456996/)
+ 
  
 #### Human error section
- 1. Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill)
+ - Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill)
  
-    Image - was copierd and shared from the [businessinsider](https://www.businessinsider.com/exxon-valdez-spill-other-disasters-contaminated-ocean-2019-3?r=US&IR=T)
+ - Images - was copierd and shared from the [businessinsider](https://www.businessinsider.com/exxon-valdez-spill-other-disasters-contaminated-ocean-2019-3?r=US&IR=T)
     
     
- 2. Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Ixtoc_I_oil_spill)
- 
-    Image - was copierd and shared from the [website](https://en.wikipedia.org/wiki/Ixtoc_I_oil_spill#/media/File:IXTOC_I_oil_well_blowout.jpg)
-    
-    
- 3. Text - was copied and shared from [wikipedia](https://en.wikipedia.org/wiki/Amoco_Cadiz)
- 
-    Image - was copierd and shared from the [website](https://en.wikipedia.org/wiki/Amoco_Cadiz#/media/File:Amoco_Cadiz_1_edit1.jpg)
-
 #### Solutions 
 
  - On that section text that I was working with was from the website [Passport Ocean](https://passportocean.com/2018/10/14/ocean-pollution-solutions/). I finded there a many important and intresting information about ocean pollution.
@@ -174,13 +163,8 @@ Please, follow this [link](https://help.github.com/en/github/creating-cloning-an
 - [Google developers](https://developers.google.com/)
 - [awwwards](https://www.awwwards.com)
 
- and many many more...
-
-
 ### The content of this Website is for educational purposes only.
 
  - I would like to thank my girlfriend immensely who was supporting and helping me for all my journey with this project.
- - Massive thanks to my mentor Eventyret_mentor, he gave me so many very useful tips and advices, and who was always open,      helpful and kind me.
+ - Massive thanks to my mentor [Simen Daehlin](https://www.github.com/Eventyret), he gave me so many very useful tips and advices, and who was always open, helpful and kind me.
  - Also, I would like to thank students from Code Institute that were helping on Slack with every issue I had, they were        always trying to give me the best tips and help me sort things out.
-
-### Michal Wesolowski
