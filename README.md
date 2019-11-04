@@ -15,7 +15,7 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 
 ## Navigation
 
- - <a href="#What this is website for">For whom</a>
+ - <a href="#What this is website for">What this is website for</a>
  - <a href="#Wireframes">Wireframes</a>
  - <a href="#Existing featurers">Existing featurers</a>
  - <a href="#Technologies Used">Technologies Used</a>
