@@ -18,7 +18,7 @@ $(document).ready(function() {
           lng: 75.0026
         },
         content:
-          '<h4>Indian Ocean</h4><p1>Eight million metric tonnes of single-use plastics clog up the world’s oceans each year, according to US environmental charity NRDC.</p1>'
+          '<h4>Indian Ocean</h4><p>Eight million metric tonnes of single-use plastics clog up the world’s oceans each year, according to US environmental charity NRDC.</p>'
       },
       {
         coords: {
@@ -26,7 +26,7 @@ $(document).ready(function() {
           lng: -24.968285
         },
         content:
-          '<h4>Atlantic Ocean</h4><p1>The second-largest ocean on Earth. It is a tragic fact the Atlantic has large amounts of plastic contamination which is cluttering up the ocean and causing problems with sea life and marine birds.</p1>'
+          '<h4>Atlantic Ocean</h4><p>The second-largest ocean on Earth. It is a tragic fact the Atlantic has large amounts of plastic contamination which is cluttering up the ocean and causing problems with sea life and marine birds.</p>'
       },
       {
         coords: {
@@ -34,7 +34,7 @@ $(document).ready(function() {
           lng: -128.2115
         },
         content:
-          '<h4>Pacific Ocean</h4><p1>The largest ocean on Earth is filled with mysteries. It is estimated that 1.15 to 2.41 million tonnes of plastic are entering the ocean each year from rivers. More than half of this plastic is less dense than the water, meaning that it will not sink once it encounters the sea</p1>'
+          '<h4>Pacific Ocean</h4><p>The largest ocean on Earth is filled with mysteries. It is estimated that 1.15 to 2.41 million tonnes of plastic are entering the ocean each year from rivers. More than half of this plastic is less dense than the water, meaning that it will not sink once it encounters the sea</p>'
       },
       {
         coords: {
@@ -42,7 +42,7 @@ $(document).ready(function() {
           lng: 50.20258346
         },
         content:
-          '<h4>Arctic Ocean</h4><p1>Scientists have found an unprecedented number of microplastics frozen in Arctic sea ice, demonstrating the alarming extent to which they are pervading marine environments. Each litre of sea ice contained around 12,000 particles of plastic, which scientists are now concerned are being ingested by native animals.</p1>'
+          '<h4>Arctic Ocean</h4><p>Scientists have found an unprecedented number of microplastics frozen in Arctic sea ice, demonstrating the alarming extent to which they are pervading marine environments. Each litre of sea ice contained around 12,000 particles of plastic, which scientists are now concerned are being ingested by native animals.</p>'
       }
     ];
     // Markers
