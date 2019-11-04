@@ -48,7 +48,7 @@ Logo is important on the website. The power of the logo lies in its visual natur
 On this website logo is located in navbar on the left side and also on the bottom of website in footer section. It is vissible on every divices. Also, logo is conected with link that goes to [Plastic Ocean](https://plasticoceans.org/) website where a many inspire were taken for this project.
 
 #### Navbar
-It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigatoin
+It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigation.
 
 Links located in navbar are connect with section on the website:
 - Home - goes to to the home page of the website (refresh or send to the top of the website)
@@ -56,6 +56,9 @@ Links located in navbar are connect with section on the website:
 - Solutions - goes to the solutions section
 - Contact Us - goes to the to footer to show contact details
 - Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
+
+#### Video
+
 
 #### Human Errors
 Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
@@ -67,10 +70,10 @@ In this section I wanted to show users how google map works. First of all, the u
 In this section the user can find several solutions on how to save our planet. This is not just about oceans, but about every sphere of our lives. Each of us should change a few habits in our life and start to take care of the place in which we lives, if not for us we have to do this for our children and future generations.
 
 #### Support
-This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet
+This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet.
 
 **Working together, we can change the current course and chart a sustainable future**
-  Users should feel that they are not alone and each of us adding a small brick can save the earth
+  Users should feel that they are not alone and each of us adding a small brick can save the earth.
 
 #### Footer
 Logo inside the footer is connected to [Plastic Ocean](https://plasticoceans.org) website. 
@@ -148,6 +151,15 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 Please, follow this [link](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) if you need any further information.
 
+## Testing
+
+This website was checking by following tools:
+  -[Validator](https://validator.w3.org/)
+  -[Am I responsive](http://ami.responsivedesign.is/)
+  -[Responsinator](https://www.responsinator.com/)
+  -[Responsive design checker](https://responsivedesignchecker.com/)
+  
+  
 ## Credits
 
 
