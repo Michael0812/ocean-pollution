@@ -15,13 +15,13 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 
 ## Navigation
 
- - <a href="#What this is website for">What this is website for</a>
+ - <a href="#What">What</a>
  - <a href="#Wireframes">Wireframes</a>
- - <a href="#Existing featurers">Existing featurers</a>
- - <a href="#Technologies Used">Technologies Used</a>
- - <a href="#How to get an API key">How to get an API key</a>
+ - <a href="#Existing">Existing featurers</a>
+ - <a href="#Technologies">Technologies Used</a>
+ - <a href="#How">How to get an API key</a>
  - <a href="#Deployment">Deployment</a>
- - <a href="#How to run this project locally">How to run this project locally</a>
+ - <a href="#locally">How to run this project locally</a>
  - <a href="#Credits">Credits</a>
  
 ## What this is website for
