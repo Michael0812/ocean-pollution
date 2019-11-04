@@ -154,10 +154,10 @@ Please, follow this [link](https://help.github.com/en/github/creating-cloning-an
 ## Testing
 
 This website was checking by following tools:
-  -[Validator](https://validator.w3.org/)
-  -[Am I responsive](http://ami.responsivedesign.is/)
-  -[Responsinator](https://www.responsinator.com/)
-  -[Responsive design checker](https://responsivedesignchecker.com/)
+  - [Validator](https://validator.w3.org/)
+  - [Am I responsive](http://ami.responsivedesign.is/)
+  - [Responsinator](https://www.responsinator.com/)
+  - [Responsive design checker](https://responsivedesignchecker.com/)
   
   
 ## Credits
