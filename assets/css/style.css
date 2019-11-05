@@ -29,6 +29,7 @@ body {
 }
 .navbar {
   height: 100px;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -53,6 +54,8 @@ body {
   width: 100px;
   height: 37px;
   border-radius: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00FFFF), to(#0067FF));
+  background-image: -o-linear-gradient(left, #00FFFF, #0067FF);
   background-image: linear-gradient(to right, #00FFFF, #0067FF);
 }
 
@@ -91,7 +94,7 @@ h3 {
 
 .text {
   color: #606060;
-  padding-top: 30px;
+  font-size: 18px;
 }
 .text-solutions {
   color: #606060;
@@ -101,6 +104,7 @@ h3 {
 .error-image {
   border-radius: 50%;
   margin-top: 40px;
+  margin-bottom: 10px;
   color: #0067FF;
 }
 
@@ -183,6 +187,12 @@ h2 {
 }
 
 /* Media queries */
+@media only screen and (min-width: 1024px){
+  #video-text{
+    font-size: 45px;
+    width: 600px;
+  }
+}
 @media only screen and (max-width: 768px) {
   video{
     display: none;
@@ -193,7 +203,7 @@ h2 {
 .img-fluid{
   width: 100%;
   padding-top: 10px;
-}
+  }
 }
 @media only screen and (max-width: 1023px) {
   .nav-link {
