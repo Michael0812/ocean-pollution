@@ -14,6 +14,19 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 70 percent of the Earth's surface is covered by seas and oceans. Every year, over 10 million tons of plastic and other plastic waste goes there. These pollutants threaten not only the flora and fauna of the sea, but also the health of people living inland
 
 
+## Navigation
+
+- [What this is website for](#what-this-is-website-for)
+- [Wireframes](#wireframes)
+- [Existing Featurers](#existing-featurers)
+- [Technologies Used](#technologies-used)
+- [API key](#how-to-get-an-api-key)
+- [Deployment](#deployment)
+- [How to run locally](#how-to-run-this-project-locally)
+- [Testing](#testing)
+- [Credits](#credits)
+
+
 ## What this is website for
 This website is for everyone, however I was mainly aiming at young people who show interest, and would like to learn a bit more about ocean pollution and what to do to help with this issue.
 
