@@ -193,7 +193,7 @@ This website was checking by following tools:
 
 ## Motivation
 
- The motivation for creating this project is the current health of the oceans.  Many people are unaware of how polluted the oceans and how many creatures and plants are dying out. In this project I wanted to show users some information on this topic and how even a small action can help.  We may think that one piece of paper, one bottle etc will not change anything, but it is not.  Everything will matter and it will only depend on us where we will live.
+ The motivation for creating this project is the current health of the oceans.  Many people are unaware of how polluted the oceans are and how many creatures and plants are dying out. In this project I wanted to show users some information on this topic and how even a small action can help.  We may think that one piece of paper, one bottle etc will not change anything, but it is not true. Everything will matter and it will only depend on us where we will live.
  I hope people change their thinking and start working.  Let us give our voice for those who cannot speak!
 
 ### The content of this Website is for educational purposes only.
