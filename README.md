@@ -37,7 +37,7 @@ Keeping all of these in mind, I am still aware that many people have a little or
 
 Bearing all of this in mind I thought us, young people still have the time to make huge change, therefore I wanted to inform and educate people about what is currently happening to our oceans (there is not enough in media).
 
-I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support [Greenpeace](https://www.greenpeace.org.uk/support-us/).. by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
+I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support [Greenpeace](https://www.greenpeace.org.uk/support-us/) by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
 
 ## Wireframes
  Wireframes were created in Adobe XD
@@ -47,41 +47,38 @@ I really wanted the website to have modern cool design, with short and punchy me
 ## Existing featurers
 
 #### Logo
-Logo is important on the website. The power of the logo lies in its visual nature. According to all studies, they recognize and bind with images or much faster than with text. That is the reason why logo contains drop of water and text **Ocean Polution**. It was created so that it would be associated with water/ocean as much as possible.
+The power of the logo lies in its visual nature. According to all studies, they recognise and bind with images or much faster than with text. That is the reason why logo contains drop of water and text **Ocean Polution**. It was created so that it would be associated with water/ocean as much as possible.
 
-On this website logo is located in navbar on the left side and also on the bottom of website in footer section. It is vissible on every divices. Also, logo is conected with link that goes to [Plastic Ocean](https://plasticoceans.org/) website where a many inspire were taken for this project.
+On this website logo is located in navbar on the left hand side and at the bottom of website in the footer section. It is vissible on all of devices. 
 
 #### Navbar
-It is positioned on the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigation.
+It is positioned at the top of the website. For a better UX on smaller devices navbar is changed to toogle navbar.  **Position:sticky** were used to improve user navigation.
 
-Links located in navbar are connect with section on the website:
-- Home - goes to to the home page of the website (refresh or send to the top of the website)
+Links located in navbar are connect with section on the website as it is one pager site:
+- Home - goes to the home page of the website (refresh or send to the top of the website)
 - Human Errors - goes to the human errors section
 - Solutions - goes to the solutions section
 - Contact Us - goes to the to footer to show contact details
-- Support Us - It is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support them
+- Support Us - it is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support his charity
 
-#### Video
-
+#### Banner Video
+A video ad offers dynamism, and can grab your audiences’ attention more than static images ever can. When I found this video I thought it could be a really nicely used in a banner to show people how beautiful underwater life is, so they can try to keep it the same. ***It is never to late to care about ocean*** as a headline perfectly explains to user what this website is about and gives them a brief idea of what they can expect to find.
 
 #### Human Errors
-Idea to create **human errors** section was to show user how human decission affect ocean pollution. Users can read about three most popular accidents where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
+Idea to create **human errors** section was to show the user how human decission affect ocean pollution. Users can read about three most popular accidents, where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
 
 #### Google Map
-In this section I wanted to show users how google map works. First of all, the user can find on the map the locations of 4 oceans and refer to the description contained in them.
+I have used google maps to show users how polluted our oceans are. They can "travel" around the map and click on each of the oceans to find out a bit more info about each specific one. This will help people understand that the issue of pollution is a world wide problem. 
 
 #### Solutions
-In this section the user can find several solutions on how to save our planet. This is not just about oceans, but about every sphere of our lives. Each of us should change a few habits in our life and start to take care of the place in which we lives, if not for us we have to do this for our children and future generations.
+In this section the user can find 4 solutions on how to save our planet. These are very easy to implement in our lives for a start. It is not just about oceans, but about every sphere of our lives. Each of us should change few habits in our life and start to take care of the place in which we live, if not for us we have to do this for our children and the future generations.
 
-#### Support
-This section is connected to [Greenpeace](https://www.greenpeace.org.uk/support-us/). The user has the option of going to the next page by pressing **Support Us**. Users has the opportunity to support organizations seeking to improve life on our planet.
+#### Support CTA 
+This section is a CTA that call people to support [Greenpeace](https://www.greenpeace.org.uk/support-us/). At this stage I am hoping for the user to be educated enough and enourged to support the charity. Greenpeace is a chairty where people could find out more about ocean pollution topic, find more ways to help the enviroment and donate money. I have decided to make it a bit more visual and exciting, also I have used a strong language, as call to actions should attract and encourage people to... take action!
 
-**Working together, we can change the current course and chart a sustainable future**
-  Users should feel that they are not alone and each of us adding a small brick can save the earth.
 
 #### Footer
-Logo inside the footer is connected to [Plastic Ocean](https://plasticoceans.org) website. 
-the user can easily find the address for **Plastic ocean organization**. Also, users can connect to social media:
+Logo in the footer takes the user back to the top of the website. It consist contact details such as address, phone numbers and also connects to social media:
 - [Facebook](https://www.facebook.com/PlasticOceans)
 - [Twitter](https://twitter.com/plasticoceans)
 - [Instagram](https://www.instagram.com/plasticoceans)
@@ -187,8 +184,8 @@ Testing can be found in [TESTING.md](TESTING.md)
 
 ## Motivation
 
- The motivation for creating this project is the current health of the oceans.  Many people are unaware of how polluted the oceans are and how many creatures and plants are dying out. In this project I wanted to show users some information on this topic and how even a small action can help.  We may think that one piece of paper, one bottle etc will not change anything, but it is not true. Everything will matter and it will only depend on us where we will live.
- I hope people change their thinking and start working. **Let us give our voice for those who cannot speak!**
+ The motivation for creating this project is the current health of the oceans.  Many people are unaware of how polluted the oceans are and how many creatures and plants are dying out. In this project I wanted to show users some information on this topic and how even a small action can help.  We may think that one piece of paper, one bottle etc. will not change anything, but it is not true. All small actions matter and it will only depend on us where we will live.
+ I hope people change their thinking and start chnging our world for a better place. **Let us give our voice for those who cannot speak!**
 
 ### The content of this Website is for educational purposes only.
 
