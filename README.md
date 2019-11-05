@@ -70,7 +70,7 @@ Idea to create **human errors** section was to show the user how human decission
 #### Google Map
 I have used google maps to show users how polluted our oceans are. They can "travel" around the map and click on each of the oceans to find out a bit more info about each specific one. This will help people understand that the issue of pollution is a world wide problem. 
 
-<img src="https://imgur.com/OTo8ahk">
+<img src="https://www.photobox.co.uk/my/photo/full?photo_id=502310330818">
 
 #### Solutions
 In this section the user can find 4 solutions on how to save our planet. These are very easy to implement in our lives for a start. It is not just about oceans, but about every sphere of our lives. Each of us should change few habits in our life and start to take care of the place in which we live, if not for us we have to do this for our children and the future generations.
