@@ -156,13 +156,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 Please, follow this [link](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) if you need any further information.
 
 ## Testing
-
-This website was checking by following tools:
-  - [Validator](https://validator.w3.org/)
-  - [Am I responsive](http://ami.responsivedesign.is/)
-  - [Responsinator](https://www.responsinator.com/)
-  - [Responsive design checker](https://responsivedesignchecker.com/)
-  
+Testing can be found in [TESTING.md](TESTING.md)
   
 ## Credits
 
