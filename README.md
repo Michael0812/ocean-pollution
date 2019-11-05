@@ -16,6 +16,10 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 ## Navigation
 
 - [What this is website for](#what-this-is-website-for)
+- [Wireframes](#wireframes)
+- [Existing Featurers](#existing-featurers)
+- [Technologies Used](#technologies-used)
+- [API KEY](#how-to-get-an-api-key)
 ## What this is website for
 This website is for everyone, however I was mainly aiming at young people who show interest, and would like to learn a bit more about ocean pollution and what to do to help with this issue.
 
