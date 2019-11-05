@@ -1,3 +1,4 @@
+
 <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
 
 <h1 align="center">
@@ -62,7 +63,7 @@ Links located in navbar are connect with section on the website as it is one pag
 - Support Us - it is connect to the [Greenpeace](https://www.greenpeace.org.uk/challenges/plastic-pollution/) website where you can help and support his charity
 
 #### Banner Video
-A video ad offers dynamism, and can grab your audiences’ attention more than static images ever can. When I found this video I thought it could be a really nicely used in a banner to show people how beautiful underwater life is, so they can try to keep it the same. ***It is never to late to care about ocean*** as a headline perfectly explains to user what this website is about and gives them a brief idea of what they can expect to find.
+A video ad offers dynamism, and can grab your audiences’ attention more than static images ever can. When I found this video I thought it could be a really nicely used in a banner to show people how beautiful underwater life is, so they can try to keep it the same. **It is never to late to care about ocean** as a headline perfectly explains to user what this website is about and gives them a brief idea of what they can expect to find.
 
 #### Human Errors
 Idea to create **human errors** section was to show the user how human decission affect ocean pollution. Users can read about three most popular accidents, where human mistake made catastophe and contaminate oceans, the coral reefs and killed many animals.
@@ -70,7 +71,7 @@ Idea to create **human errors** section was to show the user how human decission
 #### Google Map
 I have used google maps to show users how polluted our oceans are. They can "travel" around the map and click on each of the oceans to find out a bit more info about each specific one. This will help people understand that the issue of pollution is a world wide problem. 
 
-<img src="https://www.photobox.co.uk/my/photo/full?photo_id=502310330818">
+![google-map](https://serving.photos.photobox.com/49758591a4f6b78cd732e371e3e968eceecd77152eb6610318095aa0b63388ea584a91d0.jpg)
 
 #### Solutions
 In this section the user can find 4 solutions on how to save our planet. These are very easy to implement in our lives for a start. It is not just about oceans, but about every sphere of our lives. Each of us should change few habits in our life and start to take care of the place in which we live, if not for us we have to do this for our children and the future generations.
@@ -92,19 +93,22 @@ Logo in the footer takes the user back to the top of the website. It consist con
 - All those languages was used to create this website.
 
 #### [jQuery](https://jquery.com/)
-- This project uses jQueary to reference Javascript.
+- This project uses **jQueary** to reference Javascript.
 
 #### [Popper.js](https://popper.js.org/)
-- This project uses popper.js library.
+- This project uses **popper.js** library.
 
 #### [Bootstrap](https://getbootstrap.com/)
-- This project uses Bootstrap to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+- This project uses **Bootstrap4** to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
 #### [Google Font](https://fonts.google.com)
-- This project uses Google Font to style the website font.
+- This project uses **Google Font** to style the website font.
 
 #### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
-- This project used Google Map to show up map on the website.
+- This project used **Google Map** to show up map on the website.
+
+#### [AutoPrefixer]([https://autoprefixer.github.io/](https://autoprefixer.github.io/))
+- This project used **AutoPrefixer** to make sure that the CSS code works on all browsers.
 
 ### How to get an API key
 Follow these steps to get an API key:
