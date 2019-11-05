@@ -202,4 +202,4 @@ This website was checking by following tools:
  - Massive thanks to my mentor [Simen Daehlin](https://www.github.com/Eventyret), he gave me so many very useful tips and advices, and who was always open, helpful and kind me.
  - Also, I would like to thank students from Code Institute that were helping on Slack with every issue I had, they were        always trying to give me the best tips and help me sort things out.
 
-- [Navigation](#navigation)
+<p style:text-align> - [Back to the top](#navigation)</p>
