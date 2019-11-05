@@ -37,7 +37,7 @@ Keeping all of these in mind, I am still aware that many people have a little or
 
 Bearing all of this in mind I thought us, young people still have the time to make huge change, therefore I wanted to inform and educate people about what is currently happening to our oceans (there is not enough in media).
 
-I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support ….. by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
+I really wanted the website to have modern cool design, with short and punchy messaging. I wanted to people to take an action and support [Greenpeace](https://www.greenpeace.org.uk/support-us/).. by donating money and changing their habits. It is a one pager website therefore it doesn’t take long to go through all of the info, it is perfect for sharing on social media.
 
 ## Wireframes
  Wireframes were created in Adobe XD
