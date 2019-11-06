@@ -109,8 +109,8 @@ h3 {
 }
 .text-solutions {
   color: #606060;
-}
 
+}
 /* HUMANS ERRORS */
 .error-image {
   border-radius: 50%;
@@ -281,4 +281,9 @@ h5 {
 .mission{
   font-size: 25px;
 }
+}
+@media only screen and (min-width: 1450px) {
+  .text-solutions{
+    font-size: 21px;
+  }
 }
