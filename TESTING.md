@@ -11,5 +11,5 @@
     </a>
 </p>
 
-- This project used [Esprima]([https://esprima.org/demo/validate.html) to validate **JavaScript** syntax.
+- This project used [Esprima](https://esprima.org/demo/validate.html) to validate **JavaScript** syntax.
 ![](https://i.imgur.com/n7BqOSv.png)
