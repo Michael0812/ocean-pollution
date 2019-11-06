@@ -107,7 +107,7 @@ Logo in the footer takes the user back to the top of the website. It consist con
 #### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
 - This project used **Google Map** to show up map on the website.
 
-#### [AutoPrefixer]([https://autoprefixer.github.io/](https://autoprefixer.github.io/))
+#### [AutoPrefixer](https://autoprefixer.github.io/)
 - This project used **AutoPrefixer** to make sure that the CSS code works on all browsers.
 
 ### How to get an API key
