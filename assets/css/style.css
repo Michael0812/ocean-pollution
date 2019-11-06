@@ -118,7 +118,9 @@ h3 {
   margin-bottom: 10px;
   color: #0067FF;
 }
-
+.boat{
+  font-size: 23px;
+}
 figcaption {
   color: #0067ff;
   margin-top: 20px;
@@ -158,13 +160,6 @@ h2 {
   text-align: center;
   position: absolute;
   color: #ffffff;
-}
-.support-Us {
-  color: #0067FF;
-}
-
-#test {
-  margin-top: 7px;
 }
 
 .support-us {
