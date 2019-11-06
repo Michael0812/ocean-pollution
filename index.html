@@ -3,15 +3,13 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <!-- FAVICON LINKS -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+
   <!--style.css-->
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
@@ -21,18 +19,18 @@
 
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
     <!--LOGO-->
 
-    <a class="logo" href="https://plasticoceans.org/" target="_blank"><img src="assets/images/logo.png" height="42" alt="logo" /></a>
+    <a class="logo"><img src="assets/images/logo.png" height="50" alt="logo" /></a>
     <!--Toogle menu -->
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon "></span>
     </button>
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto ">
         <li class="nav-item ">
           <a class="nav-link" href="index.html">HOME</a>
         </li>
@@ -47,7 +45,7 @@
         </li>
         <li class="nav-item">
           <div class="nav-support">
-            <a class="nav-link" href="https://www.greenpeace.org.uk/challenges/plastic-pollution/" target="_blank"><span class="support">SUPPORT US</span></a>
+            <a class="nav-link" href="https://www.greenpeace.org.uk/support-us/" target="_blank"><span class="support">SUPPORT US</span></a>
           </div>
         </li>
       </ul>
@@ -55,27 +53,38 @@
   </nav>
   <!--Banner video (used multiply video types to make sure
         video will be supported by various browsers)-->
-
-  <div class="video-wrapper">
+  <div class="video-wrapper ">
     <div class="text-block">
+      <div class="col">
       <p id="video-text">
         It is never to late to start caring for ocean
       </p>
-      <video autoplay muted loop>
-        <source src="assets/video/video-banner.flv" type="video/flv" />
-        <source src="assets/video/video-banner.ogg" type="video/ogg" />
-        <source src="assets/video/video-banner.mp4" type="video/mp4" />
+      </div>
+      </div>
+      </div>
+        <video autoplay muted loop>
+         <source src="assets/video/video-banner.mp4" type="video/mp4" />
+
 
       </video>
-    </div>
-  </div>
+
+
+<!-- image -->
+
+
+    <div class="container-fluid justify-content-center text-center d-lg-none d-md-none text-white ">
+       <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=hero-image class="img-fluid hero-image">
+      <div class="centered d-lg-none d-md-none">
+         It is never to late to start caring for ocean
+       </div>
+       </div>
   <!--What Plastic Ocean mission is-->
 
   <section class="container-fluid">
-    <div class="row-mission justify-content-center text-center">
-      <div class="col">
+    <div class="row-mission">
+      <div class="col-12">
         <h3>What is Plastic Ocean mission</h3>
-        <p>
+        <p class="mission col pl-5 pr-5 justify-content-center text-center">
           Our mission is to inform, inspire and incite on the issue of Environment Pollution. To lead political, cultural and social change for healthy seas and coasts that support abundant marine wildlife, sustainable livelihoods and enjoyment for
           all.
         </p>
@@ -90,7 +99,7 @@
     <div class="row justify-content-center text-center">
       <div class="col-sm ">
         <figure>
-          <img class="error-image" src="assets/images/ixtoc.png" alt="Ixtoc">
+          <img class="error-image" src="assets/images/ixtoc.png" alt="Ixtoc-image">
           <figcaption>
             Ixtoc
             <div class="col">
@@ -102,23 +111,23 @@
       </div>
       <div class="col-sm">
         <figure>
-          <img class="error-image" src="assets/images/exxon-valdes.png" alt="Exxon Valdes">
+          <img class="error-image" src="assets/images/exxon-valdes.png" alt="Exxon Valdes-image">
           <figcaption>
             Exxon Valdes
             <div class="col">
-              <span class="text">The Exxon Valdez oil spill occurred in Prince William Sound, Alaska March 24, 1989, and spilled 10.8 million US gallons of crude oil over the next few days. It is considered to be one of the worst human-caused
-                environmental disasters.</span>
+              <p class="text">The Exxon Valdez oil spill occurred in Prince William Sound, Alaska March 24, 1989, and spilled 10.8 million US gallons of crude oil over the next few days. It is considered to be one of the worst human-caused
+                environmental disasters.</p>
             </div>
           </figcaption>
         </figure>
       </div>
       <div class="col-sm">
         <figure>
-          <img class="error-image" src="assets/images/amoco-cadiz.png" alt="Amoco Cadiz">
+          <img class="error-image" src="assets/images/amoco-cadiz.png" alt="Amoco Cadiz-image">
           <figcaption>
             Amoco Cadiz
-            <div class="col">
-              <span class="text">Amoco Cadiz ran aground on 16 March 1978. He contained 1,604,500 barrels (219,797 tons) of light crude oil. Severe weather resulted in the complete breakup of the ship resulting in her entire cargo of crude oil and
+            <div class="col mb-4">
+              <span class="text">Amoco Cadiz ran aground on 16 March 1978. He contained 1,604,500 barrels of light crude oil. Severe weather resulted in the complete breakup of the ship resulting in her entire cargo of crude oil and
                 4,000 tons of fuel oil being spilled into the sea.</span>
             </div>
           </figcaption>
@@ -128,10 +137,7 @@
   </div>
   <!-- This is a Map -->
   <div id="map"></div>
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-  </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I&callback=initMap">
-  </script>
+
 
   <!-- 5 Solutions -->
   <section class="container-fluid">
@@ -142,37 +148,36 @@
         <img src="https://cdn.shopify.com/s/files/1/0851/4276/files/s_well-bottles-beach.jpg?v=1492599119" alt="reusable bootle" class="img-fluid">
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-2 order-lg-2">
-        <h1>1. Use a reusable bootle</h1>
-        <span class="text-solutions">Plastic bottles are present in very large quantities in our oceans, they are ingested by marine mammals or accumulate in nature and on our beaches. Different kinds of plastic can degrade at different times, but the average time for
-          a plastic bottle to completely degrade is at least 450 years.<br><br> It can even take some bottles 1000 years to biodegrade.
-          Reusing plastic bottles can significantly reduce Ocean pollution, greenhouse gas emissions, and energy usage.</span>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">1. Use a reusable bootle</h1>
+        <p class="text-solutions col-xl-10">Plastic bottles are present in very large quantities in our oceans, they are ingested by marine mammals or accumulate in nature and on our beaches. Different kinds of plastic can degrade at different times, but the average time for
+          a plastic bottle to completely degrade is at least 450 years.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 order-4 order-md-4 order-lg-3">
-        <h1>2. Refuse disposable utensils :  Straws, cutlery, tumblers and plastic bags…</h1>
-        <span class="text-solutions">Plastic forks, knives and spoons may be convenient, but they’re wreaking havoc on our oceans. In fact, six million tons of non-durable plastics are discarded every year.<br><br> “Non-durable” means that the plastic has a useful life of less than
-          three years. Other examples of non-durable plastics include plastic packaging, trash bags, cups, and more.</span>
+        <h1 class="kurwa col-xl-10 pt-5 mt-auto mt-lg-5">2. Refuse disposable utensils :  Straws, cutlery, tumblers and plastic bags…</h1>
+        <p class="text-solutions col-xl-10">Plastic forks, knives and spoons may be convenient, but they’re wreaking havoc on our oceans. In fact, six million tons of non-durable plastics are discarded every year.<br><br> “Non-durable” means that the plastic has a useful life of less than
+          three years. Other examples of non-durable plastics include plastic packaging, trash bags, cups, and more.</p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-3 order-md-3 order-lg-4">
         <img src="https://cdn.shopify.com/s/files/1/0024/8787/7745/products/sustainable-tomorrow-cutlery-deep-green-bamboo-set-straw-7134899634289_2000x.jpg?v=1565037443" alt="cutlery" class="img-fluid">
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6 order-5">
+      <div class="col-sm-12 col-md-12 col-lg-6 pt-1 order-5">
         <img src="https://museumoflitter.typepad.com/.a/6a0115701c50aa970b011571213697970b-pi" alt="recycling" class="img-fluid">
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-6">
-        <h1>3. Recycle properly</h1>
-        <span class="text-solutions">Recycling is the process of converting waste materials into new materials and objects. It is an alternative to "conventional" waste disposal that can save material and help lower greenhouse gas emissions.<br><br> Recycling can prevent the waste
-          of potentially useful materials and reduce the consumption of fresh raw materials, thereby reducing: energy usage, air pollution, and water pollution.</span>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">3. Recycle properly</h1>
+        <p class="text-solutions col-xl-10">Recycling is the process of converting waste materials into new materials and objects. It is an alternative to "conventional" waste disposal that can save material and help lower greenhouse gas emissions.<br><br> Recycling can prevent the waste
+          of potentially useful materials and reduce the consumption of fresh raw materials, thereby reducing: energy usage, air pollution, and water pollution.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 order-8 order-md-8 order-lg-7 ">
-        <h1>4. Picking up trash on the beach</h1>
-        <span class="text-solutions">Naturally, we feel a little protective of our beaches. We’re shocked to see that some people don’t care as much about our beaches as we do. <br><br>When we spot trash and debris littering our beloved beaches, it’s upsetting—not only because it
-          damages the beauty of the beach, but also because it hurts the fragile ecosystems that call the beach home. Each individual can better the ocean’s ecosystem by playing their part in keeping the beaches clean.</span>
+        <h1 class="col-xl-10 pt-5 mt-auto mt-lg-5">4. Picking up trash on the beach</h1>
+        <p class="text-solutions mb-sm-4 col-xl-10">Naturally, we feel a little protective of our beaches. We’re shocked to see that some people don’t care as much about our beaches as we do. <br><br>When we spot trash and debris littering our beloved beaches, it’s upsetting—not only because it
+          damages the beauty of the beach, but also because it hurts the fragile ecosystems that call the beach home. </p>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 order-7 order-md-7 order-lg-8">
         <img src="https://cdn-image.travelandleisure.com/sites/default/files/1552328213/teens-picking-up-trash-TRASHTAG0319.jpg" alt="trash" class="img-fluid">
@@ -186,8 +191,10 @@
       <div class="row justify-content-center text-center">
         <img src="assets/images/background.png" alt="background-image" class="background-image">
         <h2>Working together, we can change the current course and chart a sustainable future</h2>
-        <div class="support-Us "></div>
-        <span class="support-us"><a href="https://www.greenpeace.org.uk/challenges/plastic-pollution/" target="_blank"><p id="test">SUPPORT US</p></a></span>
+
+<a href="https://www.greenpeace.org.uk/support-us/" class="support-us" target="_blank">SUPPORT US</a>
+
+
 </div>
 </div>
 
@@ -198,12 +205,12 @@
     <div id="contact"></div>
     <div class="container text-center text-md-left">
       <div class="row">
-        <div class="col-md-6 mt-md-0 mt-3">
-          <img src="assets/icons/logo-white.svg" height="120" alt="logo1">
+        <div class="col-md-6 mt-md-1 mt-3">
+          <a class="logo" href="https://plasticoceans.org/" target="_blank"><img src="assets/icons/logo-white.svg" height="120" alt="logo1"></a>
         </div>
-        <hr class="clearfix w-100 d-md-none pb-3">
-        <div class="col-md-3 mb-4">
-          <ul class="list-unstyled">
+        <hr class="clearfix w-100 d-md-none pb-3  ">
+        <div class="col-md-3 mb-3 ">
+          <ul class="list-unstyled ">
             <li class="address">
               Plastic Ocean
             </li>
@@ -224,10 +231,11 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 ">
           <h5>Follow Us:</h5>
           <ul class="social list-unstyled">
             <li>
+              <!--Social media -->
               <a href="https://twitter.com/plasticoceans" target="_blank"><img src="assets/icons/twitter.png" alt="twitter-icon"></a>
               <a href="https://www.facebook.com/PlasticOceans/" target="_blank"><img src="assets/icons/facebook.png" alt="facebook-icon"></a>
               <a href="https://www.instagram.com/plasticoceans/" target="_blank"><img src="assets/icons/insta.png" alt="instagram-icon"></a>
@@ -242,11 +250,14 @@
     <div class="copyright text-center ">© Plastic Ocean Charity 2019. Registered Charity No: 1114957. Private Company Limited by Guearantee No: 5750206</div>
 
 
+    <div>Testing - github pages dosen't work</div>
+
   </footer>
   <!-- Scripts tags are at the end to improve loading time -->
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I"></script>
   <script src="assets/js/main.js"></script>
 </body>
 

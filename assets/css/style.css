@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 html {
   margin: 0;
   padding: 0;
@@ -24,6 +25,22 @@ body {
   margin-top: -40%;
   margin-left: 20%;
 }
+
+/* NavBar */
+.container {
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  font-weight: 900;
+  text-align: center;
+  width: 280px;
+  font-size: 24px;
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 20%;
+}
 .navbar {
   height: 100px;
   position: -webkit-sticky;
@@ -35,6 +52,7 @@ body {
   color: #606060;
   font-size: 80%;
 }
+
 .nav-item {
   display: inline;
   padding-right: 70px;
@@ -47,30 +65,34 @@ body {
   width: 100px;
   height: 37px;
   border-radius: 15px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00ffff), to(#0067ff));
-  background-image: -o-linear-gradient(left, #00ffff, #0067ff);
-  background-image: linear-gradient(to right, #00ffff, #0067ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00FFFF), to(#0067FF));
+  background-image: -o-linear-gradient(left, #00FFFF, #0067FF);
+  background-image: linear-gradient(to right, #00FFFF, #0067FF);
 }
+
 /* LOGO */
 .logo {
   margin-top: 10px;
   margin-left: 10%;
 }
+
 /* VIDEO */
 video {
   width: 100%;
 }
+
 #video-text {
   position: absolute;
   font-weight: 900;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-left: 23%;
   margin-top: 16%;
   font-size: 25px;
   width: 300px;
 }
+
 /* OUR MISSION */
-.mission {
+.mission{
   color: #606060;
 }
 h3 {
@@ -80,6 +102,7 @@ h3 {
   padding-bottom: 50px;
   margin-top: 30px;
 }
+
 .text {
   color: #606060;
   font-size: 18px;
@@ -87,36 +110,42 @@ h3 {
 .text-solutions {
   color: #606060;
 }
+
 /* HUMANS ERRORS */
 .error-image {
   border-radius: 50%;
   margin-top: 40px;
   margin-bottom: 10px;
-  color: #0067ff;
+  color: #0067FF;
 }
+
 figcaption {
   color: #0067ff;
   margin-top: 20px;
   padding-bottom: 40px;
 }
+
 /* GOOGLE MAP */
 div#map {
   min-height: 360px;
   height: 60vh;
   margin-bottom: 40px;
 }
+
 h4 {
   color: #0067ff;
   padding-bottom: 20px;
   margin-top: 10px;
 }
+
 /* Solutions */
 h1 {
-  color: #0067ff;
+  color: #0067FF;
   padding-bottom: 20px;
   font-size: 23px;
   margin-bottom: 10px;
 }
+
 /* Support */
 .background-image {
   height: 700px;
@@ -131,11 +160,13 @@ h2 {
   color: #ffffff;
 }
 .support-Us {
-  color: #0067ff;
+  color: #0067FF;
 }
+
 #test {
   margin-top: 7px;
 }
+
 .support-us {
   position: absolute;
   margin-top: 255px;
@@ -146,6 +177,7 @@ h2 {
   background-color: #ffffff;
   font-weight: 900;
 }
+
 /* Footer */
 .page-footer {
   background-color: #0a7fab;
@@ -161,40 +193,50 @@ h5 {
 .address {
   margin-right: 15px;
 }
+.social{
+  word-spacing: 5px;
+}
+.address{
+  margin-right: 15px;
+}
 .copyright {
   margin-top: 40px;
 }
+
 /* Media queries */
-@media only screen and (min-width: 1024px) {
-  #video-text {
+@media only screen and (min-width: 1024px){
+  #video-text{
     font-size: 45px;
     width: 600px;
   }
 }
 @media only screen and (max-width: 768px) {
-  video {
+  video{
     display: none;
   }
 }
+
 @media only screen and (max-width: 768px) {
-  .img-fluid {
-    width: 100%;
-    padding-top: 10px;
+.img-fluid{
+  width: 100%;
+  padding-top: 10px;
   }
 }
 @media only screen and (max-width: 1023px) {
   .nav-link {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     text-align: center;
     width: 100%;
     margin-left: 30px;
   }
 }
-@media only screen and (max-width: 1023px) {
+
+@media only screen and (max-width:1023px) {
   .nav-support {
     display: none;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .row-mission {
     margin-left: 20%;
@@ -217,23 +259,25 @@ h5 {
     height: 100vh;
   }
 }
+
 @media only screen and (max-width: 375px) {
   .support-us {
     margin-top: 330px;
   }
 }
+
 @media only screen and (max-width: 768px) {
-  h2 {
+  h2{
     margin-top: 60px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .video-wrapper {
+  .video-wrapper{
     display: none !important;
   }
 }
 @media only screen and (min-width: 1450px) {
-  .mission {
-    font-size: 25px;
-  }
+.mission{
+  font-size: 25px;
+}
 }
