@@ -16,21 +16,6 @@ body {
   text-align: center;
   color: white;
 }
-.centered {
-  font-weight: 900;
-  text-align: center;
-  width: 280px;
-  font-size: 24px;
-  position: absolute;
-  margin-top: -40%;
-  margin-left: 20%;
-}
-
-/* NavBar */
-.container {
-  text-align: center;
-  color: white;
-}
 
 .centered {
   font-weight: 900;
@@ -147,7 +132,6 @@ h1 {
   font-size: 23px;
   margin-bottom: 10px;
 }
-
 /* Support */
 .background-image {
   height: 700px;
