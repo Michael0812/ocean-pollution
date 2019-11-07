@@ -13,6 +13,13 @@ body {
   background-color: #ffffff;
   overflow: auto;
 }
+/*Logo*/
+.logo{
+  height: 50px;
+}
+.logo1{
+  height: 120px;
+}
 /* NavBar */
 .container {
   text-align: center;
