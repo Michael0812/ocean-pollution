@@ -13,13 +13,6 @@ body {
   background-color: #ffffff;
   overflow: auto;
 }
-/*Logo*/
-.logo{
-  height: 50px;
-}
-.logo1{
-  height: 120px;
-}
 /* NavBar */
 .container {
   text-align: center;
@@ -27,12 +20,12 @@ body {
 }
 .centered {
   font-weight: 900;
-  text-align: center;
-  width: 280px;
-  font-size: 24px;
+  width: 15rem;
+  font-size: 1.5rem;
   position: absolute;
   margin-top: -40%;
   margin-left: 20%;
+  margin-right: 50px;
 }
 .navbar {
   height: 100px;
@@ -55,7 +48,7 @@ body {
   color: #ffffff;
 }
 .nav-support {
-  width: 100px;
+  width: 6.4rem;
   height: 37px;
   border-radius: 15px;
   background-image: -webkit-gradient(linear, left top, right top, from(#00FFFF), to(#0067FF));
@@ -67,6 +60,7 @@ body {
 .logo {
   margin-top: 10px;
   margin-left: 10%;
+ height: 50px;
 }
 
 /* VIDEO */
@@ -87,7 +81,7 @@ video {
 /* OUR MISSION */
 .mission{
   color: #606060;
-  width: 70vw;
+  width: 60vw;
 }
 h3 {
   color: #0067ff;
@@ -111,14 +105,6 @@ h3 {
   margin-top: 40px;
   margin-bottom: 10px;
   color: #0067FF;
-}
-.boat{
-  font-size: 23px;
-}
-figcaption {
-  color: #0067ff;
-  margin-top: 20px;
-  padding-bottom: 40px;
 }
 
 /* GOOGLE MAP */
@@ -157,14 +143,14 @@ h2 {
 
 .support-us {
   position: absolute;
-  margin-top: 255px;
-  width: 150px;
-  height: 40px;
+  margin-top: 260px;
+  width: 8.4rem;
+  height: 2rem;
+  font-size: 1.1rem;
   color: #0067ff;
   border-radius: 26px;
   background-color: #ffffff;
   font-weight: 900;
-
 }
 
 /* Footer */
@@ -217,13 +203,11 @@ h5 {
     width: 100%;
     margin-left: 30px;
   }
-}
-
-@media only screen and (max-width:1023px) {
   .nav-support {
     display: none;
-  }
 }
+}
+
 
 @media only screen and (min-width: 768px) {
   .row-mission {
@@ -265,28 +249,10 @@ h5 {
   }
 }
 @media only screen and (min-width: 1450px) {
-.mission{
-  font-size: 25px;
-}
-}
-@media only screen and (min-width: 1450px) {
   .text-solutions{
     font-size: 21px;
   }
-}
-@media only screen and (max-width: 560px) {
-  .centered{
-padding-right: 50px;
-width: 300px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .centered{
-font-size: 24px;
-}
-}
-@media only screen and (min-width: 1024) {
-  .centered{
-  font-size: 30px;
+  .mission{
+    font-size: 25px;
   }
 }
