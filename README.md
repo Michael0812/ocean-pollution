@@ -29,7 +29,7 @@ However, the largest amount of pollution goes to waters through rivers, winds an
 - [Motivation](#motivation)
 
 
-## What this is website for
+## UX/UI
 This website is for everyone, however I was mainly aiming at young people who show interest, and would like to learn a bit more about ocean pollution and what to do to help with this issue.
 
 Nowadays, its more popular to hear people talking global warming, climate changes and how people managed to destroy our world within few decades. Only just recently, on the 20th September Global Climate Stirke took place, it was series of strikes and protests to demand action to be taken to address climate change.
@@ -93,13 +93,10 @@ Logo in the footer takes the user back to the top of the website. It consist con
 - All those languages was used to create this website.
 
 #### [jQuery](https://jquery.com/)
-- This project uses **jQueary** to reference Javascript.
 
 #### [Popper.js](https://popper.js.org/)
-- This project uses **popper.js** library.
 
 #### [Bootstrap](https://getbootstrap.com/)
-- This project uses **Bootstrap4** to build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
 #### [Google Font](https://fonts.google.com)
 - This project uses **Google Font** to style the website font.
@@ -110,7 +107,7 @@ Logo in the footer takes the user back to the top of the website. It consist con
 #### [AutoPrefixer](https://autoprefixer.github.io/)
 - This project used **AutoPrefixer** to make sure that the CSS code works on all browsers.
 
-### How to get an API key
+### How to get an Google Maps API key
 Follow these steps to get an API key:
    1. Go to the [Google Cloud Platform Console.](https://console.cloud.google.com/google/maps-apis/)
    2. Create or select a project.
@@ -151,7 +148,7 @@ To deploy this page to GitHub Pages from its Github repository, the following st
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type **git clone**, and then paste the URL you copied in Step 3.
 ```console
-git clone https://github.com/USERNAME/REPOSITORY
+git clone https://github.com/Michael0812/ocean-pollution.git
 ```
 7. Press **Enter**. Your local clone will be created.
 
