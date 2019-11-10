@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  // Google Map
+  /**
+     * This is the function that gets called by google maps to 
+     * initilize google maps. This takes default the options and then creates the map
+     */
   function initMap() {
     // Map options
     const options = {
@@ -10,7 +13,7 @@ $(document).ready(function() {
       }
     };
     const map = new google.maps.Map(document.getElementById('map'), options);
-    //locations
+    //Data for the markers consisting of the a LatLng and a content
     const markers = [
       {
         coords: {
@@ -45,10 +48,11 @@ $(document).ready(function() {
           '<h4>Arctic Ocean</h4><p>Scientists have found an unprecedented number of microplastics frozen in Arctic sea ice, demonstrating the alarming extent to which they are pervading marine environments. Each litre of sea ice contained around 12,000 particles of plastic, which scientists are now concerned are being ingested by native animals.</p>'
       }
     ];
-    // Markers
+    // loop through markers
     for (let i = 0; i < markers.length; i++) {
       addMarker(markers[i]);
     }
+    // Adds marker function
     function addMarker(props) {
       let marker = new google.maps.Marker({
         position: props.coords,
@@ -58,11 +62,11 @@ $(document).ready(function() {
         let infoWindow = new google.maps.InfoWindow({
           content: props.content
         });
-        // info Window open function
+        // this is the option that allows you to click on the marker and open a window with a content
         marker.addListener('click', function() {
           infoWindow.open(map, marker);
         });
-        //info Window close function
+        //this is the option that allows you to click anywhere on the map and close a window
         google.maps.event.addListener(map, 'click', function() {
           infoWindow.close();
         });
