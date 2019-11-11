@@ -92,20 +92,18 @@ Logo in the footer takes the user back to the top of the website. It consist con
 #### HTML, CSS, JavaScript
 - All those languages was used to create this website.
 
-#### [jQuery](https://jquery.com/)
+  - #### [jQuery](https://jquery.com/)
+  
+  - #### [Popper.js](https://popper.js.org/)
+  
+  - #### [Bootstrap](https://getbootstrap.com/)
 
-#### [Popper.js](https://popper.js.org/)
+  - #### [Google Font](https://fonts.google.com)
 
-#### [Bootstrap](https://getbootstrap.com/)
+  - #### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-#### [Google Font](https://fonts.google.com)
-- This project uses **Google Font** to style the website font.
+  - #### [AutoPrefixer](https://autoprefixer.github.io/)
 
-#### [Google Map](https://developers.google.com/maps/documentation/javascript/tutorial)
-- This project used **Google Map** to show up map on the website.
-
-#### [AutoPrefixer](https://autoprefixer.github.io/)
-- This project used **AutoPrefixer** to make sure that the CSS code works on all browsers.
 
 ### How to get an Google Maps API key
 Follow these steps to get an API key:
