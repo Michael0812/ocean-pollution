@@ -10,12 +10,14 @@ This site was tested across multiple browsers (Chrome, Safari, Internet Explorer
 
 - [Responsive test tool](http://responsivetesttool.com)
 
+I also made a manual testing. All social media works correctly and open in a new tab. Links located in navbar are working correct and send user to the sections on the website. Autoplay video is working correct.
+
 In addition to my own testing, I also asked family members, friends and the Slack community to test my website and provide any feedback to make sure website is responsive and everything works correctly.
 
 
 ### Code Validation
--  This project used [W3C HTML Validator](https://validator.w3.org) to validate HTML code.
-- ![](https://i.imgur.com/Dt1KHNu.png) This project used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.    
+-  This project used [W3C  HTML Validator](https://validator.w3.org/](https://validator.w3.org/) to validate HTML code.
+- ![](https://i.imgur.com/Dt1KHNu.png) This project used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate CSS code.    
 	<p>
 	<a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
@@ -24,5 +26,5 @@ In addition to my own testing, I also asked family members, friends and the Slac
     </a>
 </p>
 
-- This project used [Esprima](https://esprima.org/demo/validate.html) to validate JS code.
+- This project used [Esprima](https://esprima.org/demo/validate.html](https://esprima.org/demo/validate.html) to validate JS code.
 ![](https://i.imgur.com/n7BqOSv.png)
