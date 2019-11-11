@@ -101,7 +101,6 @@ video {
 /* OUR MISSION */
 .mission{
   color: #606060;
-  width: 50vw;
   font-size: 1.2rem;
 }
 h3 {
@@ -114,7 +113,7 @@ h3 {
 
 .text {
   color: #606060;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .text-solutions {
   color: #606060;
@@ -228,17 +227,6 @@ h5 {
 }
 }
 
-@media only screen and (min-width: 768px) {
-  .row-mission {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
-@media only screen and (min-width: 1450px) {
-  .text {
-    font-size: 1.2rem;
-  }
-}
 @media only screen and (min-width: 1024px) {
   div#map {
     height: 100vh;
@@ -261,9 +249,6 @@ h5 {
   .text-solutions{
     font-size: 1.4rem;
     margin-left: 30px;
-  }
-  .mission{
-    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 992px){
