@@ -95,13 +95,14 @@ video {
   margin-left: 23%;
   margin-top: 16%;
   font-size: 1rem;
-  width: 300px;
+  width: 22rem;
 }
 
 /* OUR MISSION */
 .mission{
   color: #606060;
-  width: 60vw;
+  width: 50vw;
+  font-size: 1.2rem;
 }
 h3 {
   color: #0067ff;
@@ -113,7 +114,7 @@ h3 {
 
 .text {
   color: #606060;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .text-solutions {
   color: #606060;
